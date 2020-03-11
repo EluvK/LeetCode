@@ -14,7 +14,7 @@ public:
                 int j=i+1;
                 for(;j<A.size();j++){
                     sum+=A[j];
-                    if(sum==p*2) return true;
+                    if(sum==p*2&&j!=A.size()-1) return true;
                 }
                 return false;
             }
