@@ -5,16 +5,15 @@
  */
 
 // @lc code=start
+using namespace std;
 class Solution {
 public:
-    int singleNumber(vector<int>& nums) {
+    int singleNumber(vector<int> & nums) {
         int res = 0;
-        for (auto n : nums)
-        {
+        for (auto n : nums) {
             res ^= n;
         }
         return res;
     }
 };
 // @lc code=end
-
