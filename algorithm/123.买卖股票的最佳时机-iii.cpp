@@ -9,23 +9,15 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int> & prices) {
-        int len = prices.size();
-        if (len < 2)
-            return 0;
-        vector<int> dp1(len, 0), dp2(len, 0);
-        int mn = prices[0], mx = prices[len - 1];
-        for (int i = 1; i < len; ++i) {
-            dp1[i] = max(dp1[i - 1], prices[i] - mn);
-            mn = min(prices[i], mn);
+        int buy_one = INT_MIN, sell_one = 0;
+        int buy_two = INT_MIN, sell_two = 0;
+        for (auto p : prices) {
+            buy_one = max(buy_one, -p);
+            sell_one = max(sell_one, buy_one + p);
+            buy_two = max(buy_two, sell_one - p);
+            sell_two = max(sell_two, buy_two + p);
         }
-        for (int i = len - 2; i >= 0; --i) {
-            dp2[i] = max(dp2[i + 1], mx - prices[i]);
-            mx = max(prices[i], mx);
-        }
-        int ans = 0;
-        for (int i = 0; i < len; ++i)
-            ans = max(ans, dp1[i] + dp2[i]);
-        return ans;
+        return sell_two;
     }
 };
 
