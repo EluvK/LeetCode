@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 /*
 // Definition for a Node.
 class Node {

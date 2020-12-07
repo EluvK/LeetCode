@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     int cal(int a, int b, int operator_num) {

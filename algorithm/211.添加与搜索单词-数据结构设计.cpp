@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class WordDictionary {
 public:
     struct node {

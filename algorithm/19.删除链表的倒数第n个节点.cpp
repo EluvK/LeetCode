@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 /**
  * Definition for singly-linked list.
  * struct ListNode {

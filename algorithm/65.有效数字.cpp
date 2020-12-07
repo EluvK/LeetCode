@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     vector<bool> finals{false, false, false, true, false, true, true, false, true};

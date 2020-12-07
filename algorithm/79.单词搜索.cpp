@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     const int dx[4] = {0, 1, 0, -1};

@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 struct node {
     int x, h;
     node(int _x, int _h) {

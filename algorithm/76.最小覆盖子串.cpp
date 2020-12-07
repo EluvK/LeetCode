@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     bool check(map<char, int> & mp) {

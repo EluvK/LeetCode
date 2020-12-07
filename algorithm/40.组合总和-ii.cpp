@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     void solve(set<vector<int>> & ans, vector<int> & res, vector<int> & candidates, int sum, int index) {

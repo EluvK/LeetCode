@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     int split_string(const std::string & input, const char split_char, std::vector<std::string> & values) {

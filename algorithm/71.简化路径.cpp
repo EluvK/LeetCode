@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     void split_string(string src, char pattren, vector<string> & res) {

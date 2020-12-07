@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class MyQueue {
 private:
     stack<int> a;

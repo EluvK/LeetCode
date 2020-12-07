@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class LRUCache {
 private:
     int m_cap;

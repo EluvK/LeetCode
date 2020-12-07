@@ -5,10 +5,8 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     bool divisorGame(int N) { return !(N & 1); }
 };
 // @lc code=end
-

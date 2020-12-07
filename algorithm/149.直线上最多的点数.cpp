@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     inline int gcd(int a, int b) { return b ? gcd(b, a % b) : a; }

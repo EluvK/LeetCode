@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class Solution {
 public:
     bool row[10][10] = {false}, col[10][10] = {false}, block[10][10] = {false};

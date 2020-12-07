@@ -5,7 +5,6 @@
  */
 
 // @lc code=start
-using namespace std;
 class MinStack {
 public:
     stack<int> st;
