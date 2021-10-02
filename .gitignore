@@ -1,2 +1,4 @@
 .vscode
 .testcase
+/define.h
+.DS_Store
